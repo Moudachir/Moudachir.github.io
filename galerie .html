@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - FIMTECH CFM</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header, footer {
+            background: #4a148c;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 1rem;
+        }
+        main {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 2rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .gallery div {
+            background: #ddd;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Galerie</h1>
+</header>
+<main>
+    <p>Quelques aperçus de nos projets :</p>
+    <div class="gallery">
+        <div>Photo 1</div>
+        <div>Photo 2</div>
+        <div>Vidéo 1</div>
+        <div>Événement 1</div>
+    </div>
+</main>
+<footer>
+    &copy; 2025 FIMTECH CFM. Tous droits réservés.
+</footer>
+</body>
+</html>
